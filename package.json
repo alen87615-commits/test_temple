@@ -1,0 +1,15 @@
+{
+  "name": "test-temple-orders",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Order list demo page with an Export Orders button backed by GET /api/export",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>訂單管理</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="page-header">
+      <h1>訂單列表</h1>
+      <div class="toolbar">
+        <button id="refresh-btn" class="btn btn-secondary">重新整理</button>
+        <button id="export-btn" class="btn btn-primary">匯出訂單</button>
+      </div>
+    </header>
+
+    <table class="order-table">
+      <thead>
+        <tr>
+          <th>訂單編號</th>
+          <th>客戶</th>
+          <th>商品</th>
+          <th>數量</th>
+          <th>金額</th>
+          <th>日期</th>
+          <th>狀態</th>
+        </tr>
+      </thead>
+      <tbody id="order-tbody"></tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
